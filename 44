@@ -6,7 +6,7 @@ getgenv().PredictMovement = true -- Predicts if they are moving in fast velocity
 getgenv().PredictionVelocity = -9 -- The speed of the PredictMovement feature 
 
 getgenv().FuckHoodUniversalAimbotLoadingTime = tick()
-if FuckHoodUniversalAimbotLoaded == true then
+if FuckHoodUniversalAimbotLoaded == false then
     Notify("SendNotification", "", "", 3)
     return 
 end
